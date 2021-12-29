@@ -18,7 +18,7 @@ pnpm run build
 pnpm run watch:build
 
 pnpm run start
-pnpm run watch:start // (not implemented yet, tbd how it should work)
+pnpm run watch:start
 
 pnpm run build:start
 
@@ -34,6 +34,3 @@ pnpm run build:start
 - simple, no abstractions (wysiwyg)
 - easy to customize
 - simple output
-
-### Todo
-- watch:start (esbuild.mjs subprocess or concurrent task?)
